@@ -1577,7 +1577,7 @@
 
 /* Banner */
 
-	#banner {
+	.banner {
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
@@ -1701,7 +1701,7 @@
 	}
 
 	body.is-preload {
-		#banner {
+		.banner {
 			h2 {
 				@include vendor('transform', 'scale(0.95)');
 				opacity: 0;
@@ -1918,7 +1918,7 @@
 				background: none;
 			}
 
-			#banner,
+			.banner,
 			.wrapper.style4 {
 				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
 				background-position: center center;
