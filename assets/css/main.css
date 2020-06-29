@@ -2766,7 +2766,7 @@ input, select, textarea {
 			}
 
 				.spotlight br {
-					display: none;
+					/* display: none; */
 				}
 
 				.spotlight .image {
@@ -4030,6 +4030,12 @@ input, select, textarea {
 
 .sub-objectius li:not(:first-child) {
 	margin-top: 20px;
+}
+
+.video-yt {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Fases */
